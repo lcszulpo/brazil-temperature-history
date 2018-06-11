@@ -1,13 +1,21 @@
 import React from 'react'
-import Link from 'gatsby-link'
 
-const IndexPage = () => (
+const IndexPage = (props) => (
   <div>
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <Link to="/page-2/">Go to page 2</Link>
+    <label>{console.log(JSON.stringify(props.data.dataJson.temperatures))}</label>
+    <label>Data Source from INMET</label>
   </div>
 )
 
 export default IndexPage
+
+export const ChartDataQuery = graphql`
+  query ChartDataQuery {
+    dataJson {
+      temperatures {
+        date
+        average
+      }
+    }
+  }
+`

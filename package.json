@@ -21,6 +21,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
+    "gatsby-source-filesystem": "^1.5.38",
+    "gatsby-transformer-json": "^1.0.19",
     "prettier": "^1.12.0"
   },
   "repository": {
