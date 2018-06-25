@@ -1,11 +1,14 @@
 import React from 'react'
+import _ from 'lodash'
 
-const IndexPage = (props) => (
-  <div>
-    <label>{console.log(JSON.stringify(props.data.dataJson.temperatures))}</label>
-    <label>Data Source from INMET</label>
-  </div>
-)
+const IndexPage = (props) => {
+  console.log(JSON.stringify(props.data.dataJson.temperatures))
+  return (
+    <div>
+      <label>Data Source from INMET</label>
+    </div>
+  )
+}
 
 export default IndexPage
 
