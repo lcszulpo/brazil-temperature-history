@@ -4,6 +4,11 @@
   "version": "1.0.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
+    "@vx/axis": "^0.0.170",
+    "@vx/group": "^0.0.170",
+    "@vx/mock-data": "^0.0.165",
+    "@vx/scale": "^0.0.165",
+    "@vx/shape": "^0.0.170",
     "d3": "^5.4.0",
     "gatsby": "^1.9.247",
     "gatsby-link": "^1.6.40",

@@ -7,7 +7,7 @@ import './index.css'
 const Layout = ({ children, data }) => (
   <div>
     <Helmet
-      title=''
+      title=""
       meta={[
         { name: 'description', content: 'Sample' },
         { name: 'keywords', content: 'sample, something' },
